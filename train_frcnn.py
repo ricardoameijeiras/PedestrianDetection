@@ -245,7 +245,7 @@ for epoch_num in range(num_epochs):
 	training = True
 	validate = False
 	
-	while(i):
+	#while(i):
 		try:
 			if(training):
 				if len(rpn_accuracy_rpn_monitor) == len(train_imgs) and C.verbose:
